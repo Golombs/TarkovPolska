@@ -1,0 +1,94 @@
+
+
+body{
+    margin: 0;
+    background-image: url(tarkov.jpg) ;
+    /*background-position: ;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.header {
+    background-image: linear-gradient(45deg, white , green);
+background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-text-fill-color: transparent;
+background-size: 100%;
+font-size: 3vh;
+    padding: 2px;
+    text-align: center;
+    backdrop-filter: contrast(40%);
+  }
+
+div.Napis{
+
+    
+    backdrop-filter: contrast(40%);
+}
+
+
+.Napisel {
+    background-size: 100%;
+    
+   font-size: 6vh;
+background-image: linear-gradient(45deg, white , green);
+background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-text-fill-color: transparent;
+
+
+
+}
+
+.dcs{
+
+
+    position: relative;
+    left: 30%;
+    top: 40%;
+    
+
+
+}
+
+.menu{
+
+    overflow: hidden;
+    background-color: #333;
+    height: 6vh;
+
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+.dcs1{
+
+   
+
+}
+
+.imgdsc{
+    
+
+}
