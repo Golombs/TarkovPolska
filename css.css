@@ -6,8 +6,8 @@ body{
     /*background-position: ;*/
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    min-height: 100vh;
 
 }
 
@@ -82,13 +82,9 @@ background-clip: text;
   }
 
 
-.dcs1{
+.zdjh{
 
-   
+float: left;
 
-}
-
-.imgdsc{
-    
 
 }
