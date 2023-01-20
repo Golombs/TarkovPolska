@@ -34,7 +34,7 @@ div.Napis{
 
 .Napisel {
     background-size: 100%;
-    
+    text-align:center ;
    font-size: 6vh;
 background-image: linear-gradient(45deg, white , green);
 background-clip: text;
@@ -90,19 +90,29 @@ float: left;
 }
 
 .profile{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+ 
+}
 
-    width: 100%;
-        padding: 2px;
+.profile div{
+    float: left;
+    border-radius: 30px ;
+    width: 60%;
+    margin-left: 5%;
     text-align: center;
-    backdrop-filter: contrast(40%);
+    
     font-size: 5vh;
-
-
+    background-color: gray;
+    border: 1px solid red;
 
 }
+
+
 
 img{
 
+    border-radius: 30px;
     float: left;
-
 }
+
