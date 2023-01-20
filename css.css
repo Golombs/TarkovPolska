@@ -88,3 +88,21 @@ float: left;
 
 
 }
+
+.profile{
+
+    width: 100%;
+        padding: 2px;
+    text-align: center;
+    backdrop-filter: contrast(40%);
+    font-size: 5vh;
+
+
+
+}
+
+img{
+
+    float: left;
+
+}
