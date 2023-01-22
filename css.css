@@ -8,8 +8,11 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100vh;
+    background-position: center;
 
 }
+
+
 
 .header {
     background-image: linear-gradient(45deg, white , green);
@@ -23,11 +26,19 @@ font-size: 3vh;
     padding: 2px;
     text-align: center;
     backdrop-filter: contrast(40%);
+    width: auto;
   }
+
+
+.header img{
+
+float: left;
+
+}
 
 div.Napis{
 
-    
+    width: auto;
     backdrop-filter: contrast(40%);
 }
 
@@ -35,13 +46,14 @@ div.Napis{
 .Napisel {
     background-size: 100%;
     text-align:center ;
-   font-size: 6vh;
+   font-size: 5vh;
 background-image: linear-gradient(45deg, white , green);
 background-clip: text;
 -webkit-background-clip: text;
 -moz-background-clip: text;
 -webkit-text-fill-color: transparent; 
 -moz-text-fill-color: transparent;
+
 
 
 
@@ -87,14 +99,14 @@ background-clip: text;
   .grid{
 
     display: grid;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: 23% 23% 23% 23% ;
     width: 100%;
     height: 100%;
-    gap: 4%;
+    gap: 1%;
 }
 
 .box{
-    height: 82%;
+    height: 85%;
   width: 90%;
   background: rgba(0, 0, 0, 0.4);
   padding: 2%;
@@ -111,4 +123,40 @@ background-clip: text;
   width: 40%;
   height: 40%;
   
+}
+
+.dcp{
+  font-size: 120%;
+  border-radius: 20%;
+  background-image: linear-gradient(32deg, rgb(187, 233, 236) , rgb(118, 180, 189));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.regulamin {
+max-height: 80vh;
+background-color: rgba(74, 75, 73, 0.459);
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+color: white;
+font-size: 3vh;
+padding: 1%;
+overflow: auto;
+
+}
+
+.regulamin a {
+
+  color: rgb(182, 180, 180);
+
+}
+
+.regulamin a:visited{
+
+  color: rgb(122, 121, 121);
+
 }
