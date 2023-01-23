@@ -1,13 +1,20 @@
+*{
 
+padding: 0;
+margin: 0;
+
+}
 
 body{
-    margin: 0;
+    
     background-image: url(tarkov.jpg) ;
     /*background-position: ;*/
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
     
 
 }
@@ -15,11 +22,11 @@ body{
 main{
 
  position: relative;
-
+ 
 }
 
 .header {
-    background-image: linear-gradient(45deg, rgb(255, 255, 255) , green);
+    background-image: linear-gradient(45deg, rgb(219, 73, 50) , rgb(160, 30, 30));
 background-clip: text;
 -webkit-background-clip: text;
 -moz-background-clip: text;
@@ -27,10 +34,13 @@ background-clip: text;
 -moz-text-fill-color: transparent;
 background-size: 100%;
 font-size: 3vh;
-    padding: 2px;
+    padding: 4%;
     text-align: center;
-    backdrop-filter: contrast(40%);
+    background-color: rgba(77, 78, 77, 0.589);
     width: auto;
+    text-transform: uppercase;
+    
+    
   }
 
 
@@ -47,13 +57,14 @@ div.Napis{
     background-size: 100%;
     text-align:center ;
    font-size: 5vh;
-background-image: linear-gradient(45deg, rgb(195, 233, 200) , green);
+background-image: linear-gradient(45deg, rgb(219, 73, 50) , rgb(160, 30, 30));
 background-clip: text;
 -webkit-background-clip: text;
 -moz-background-clip: text;
 -webkit-text-fill-color: transparent; 
 -moz-text-fill-color: transparent;
-
+background-color: rgba(77, 78, 77, 0.589);
+padding: 1.5%;
 
 
 
@@ -70,23 +81,34 @@ background-clip: text;
 
 
 }
+.obramowanie{
 
+  max-width: 1024px;
+  margin: 0 auto ;
+  overflow: hidden;
+
+}
 .menu{
-
-    overflow: hidden;
+    
+    
     background-color: #333;
     height: 6vh;
+
 
 }
 
 .menu a {
+    
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2vh;
     text-decoration: none;
-
+    text-transform: uppercase;
+    line-height: 150%;
+    width: 21.5%;
+    
   }
 
   .menu a:hover {
@@ -94,7 +116,11 @@ background-clip: text;
     color: black;
   }
 
-
+  .clearfix {
+    display: block;
+    content: "";
+    clear: both;
+    }
 
 
   .grid{
@@ -117,7 +143,7 @@ background-clip: text;
   color: white;
   font-family: 'Century Gothic',sans-serif;
   border-radius: 20% 0 20% 0;
-  box-shadow: 2px 2px 10px green;
+  box-shadow: 2px 2px 10px rgb(128, 0, 0);
 }
 .box-img{
   border-radius: 50%;
@@ -139,26 +165,50 @@ background-clip: text;
 
 .regulamin {
 max-height: 80vh;
-background-color: rgba(74, 75, 73, 0.459);
-width: 50%;
-margin-left: 25%;
-margin-right: 25%;
+background-color: rgba(77, 78, 77, 0.589);
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
 color: white;
 font-size: 3vh;
-padding: 1%;
+padding: 3%;
 overflow: auto;
 
 }
 
+.RegN{
+  background-size: 100%;
+  text-align:center ;
+ font-size: 5vh;
+background-image: linear-gradient(45deg, rgb(219, 73, 50) , rgb(160, 30, 30));
+background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-text-fill-color: transparent;
+
+padding: 1.5%;
+letter-spacing: 1px;
+
+
+}
+
+.regulamin h1 {
+
+  margin-top: 4vh;
+  text-transform: uppercase;
+  
+}
+
 .regulamin a {
 
-  color: rgb(182, 180, 180);
+  color: rgb(180, 245, 250);
 
 }
 
 .regulamin a:visited{
 
-  color: rgb(122, 121, 121);
+  color: rgb(65, 168, 228);
 
 }
 
