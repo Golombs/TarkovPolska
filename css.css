@@ -19,11 +19,7 @@ body{
 
 }
 
-main{
 
- position: relative;
- 
-}
 
 .header {
     background-image: linear-gradient(45deg, rgb(219, 73, 50) , rgb(160, 30, 30));
@@ -63,7 +59,7 @@ background-clip: text;
 -moz-background-clip: text;
 -webkit-text-fill-color: transparent; 
 -moz-text-fill-color: transparent;
-background-color: rgba(77, 78, 77, 0.589);
+
 padding: 1.5%;
 
 
@@ -103,7 +99,7 @@ padding: 1.5%;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 2vh;
+    padding: 1.7vh;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 150%;
@@ -165,7 +161,7 @@ padding: 1.5%;
 
 .regulamin {
 max-height: 80vh;
-background-color: rgba(77, 78, 77, 0.589);
+background-color: rgba(77, 78, 77, 0.89);
 width: 60%;
 margin-left: 20%;
 margin-right: 20%;
