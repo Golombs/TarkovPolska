@@ -7,15 +7,19 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
-    background-position: center;
+    height: 100%;
+    
 
 }
 
+main{
 
+ position: relative;
+
+}
 
 .header {
-    background-image: linear-gradient(45deg, white , green);
+    background-image: linear-gradient(45deg, rgb(255, 255, 255) , green);
 background-clip: text;
 -webkit-background-clip: text;
 -moz-background-clip: text;
@@ -43,7 +47,7 @@ div.Napis{
     background-size: 100%;
     text-align:center ;
    font-size: 5vh;
-background-image: linear-gradient(45deg, white , green);
+background-image: linear-gradient(45deg, rgb(195, 233, 200) , green);
 background-clip: text;
 -webkit-background-clip: text;
 -moz-background-clip: text;
@@ -61,6 +65,7 @@ background-clip: text;
     position: relative;
     left: 30%;
     top: 40%;
+    max-width: 50%;
     
 
 
@@ -156,3 +161,56 @@ overflow: auto;
   color: rgb(122, 121, 121);
 
 }
+
+/* intro*/
+.intro{
+
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  transition: 1s;
+  
+  }
+  
+  .logo-header{
+  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%) ;
+  color: white;
+  
+  }
+  
+  
+  .logo{
+  
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+  font-size: 150%;
+  
+  
+  }
+  
+  .logo.active{
+  
+      bottom: 0;
+      opacity: 1;
+      transition: ease-in-out 0.5s;
+      
+  }
+  
+  .logo.fade{
+  
+      bottom: 150px;
+      opacity: 0;
+      transition: ease-in-out 0.5s;
+  
+  }
+  
