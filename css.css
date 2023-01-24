@@ -18,8 +18,10 @@ body{
     height: 100vh;
     overflow-x: hidden;
     
+    
 
 }
+
 
 
 
@@ -75,8 +77,11 @@ padding: 1.5%;
     position: relative;
     left: 30%;
     top: 40%;
-    max-width: 50%;
+    padding: 2%;
+    max-width: 35%;
+    border-radius: 30px;
     
+    background-color: rgba(39, 40, 39, 0.833);
 
 
 }
